@@ -1,5 +1,5 @@
-const data = require('./array');
-const { rl, askQuestion } = require('./readline');
+const data = require('../array');
+const { rl, askQuestion } = require('../readline');
 
 async function excluir() {
     console.log('==== Remover Baralho ====\n');

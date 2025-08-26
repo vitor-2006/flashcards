@@ -1,6 +1,6 @@
-const data = require('./array')
-const {rl, askQuestion} = require('./readline')
-const cadastrarFlash = require('./cadastrarFlash')
+const data = require('../array')
+const {rl, askQuestion} = require('../readline')
+const cadastrarFlash = require('../cadastrarFlash')
 
 async function cadastrar() {
     let resposta = 's';

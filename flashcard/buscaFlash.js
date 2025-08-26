@@ -1,5 +1,5 @@
-const data = require('./array');
-const { askQuestion } = require('./readline');
+const data = require('../array');
+const { askQuestion } = require('../readline');
 
 async function buscaFlash() {
     console.log('==== Buscar Flashcard ====\n');

@@ -1,7 +1,7 @@
-const data = require('./array')
-const {rl, askQuestion} = require('./readline')
-const listar = require('./listar')
-const atualizarFlash = require('./atualizarFlash')
+const data = require('../array')
+const {rl, askQuestion} = require('../readline')
+const listar = require('../listar')
+const atualizarFlash = require('../atualizarFlash')
 
 async function atualizar() {
     while (true) {
